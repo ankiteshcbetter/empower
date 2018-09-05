@@ -1,0 +1,77 @@
+.footer {
+  padding-top: 5rem;
+  background-color: $color-black;
+
+  &__image {
+    margin-bottom: 2.5rem;
+  }
+
+  &__text {
+    font-size: 1.4rem;
+    color: $color-grey;
+  }
+
+  &__icon {
+    vertical-align: middle;
+    color: $color-primary;
+    font-size: 1.8rem;
+    padding-right: 1rem;
+    padding-bottom: 2px;
+  }
+
+  &__link{
+      text-decoration: none;
+      color: $color-grey;
+      transition: all .3s;
+
+      &:hover{
+          text-decoration: none;
+          color: $color-primary;
+      }
+  }
+
+  &__instagram-images{
+      width: 30%;
+      padding-right: .5rem;
+      padding-bottom: .8rem;
+  }
+}
+
+.footer-secondary{
+    background-color: $color-dark-grey-2;
+    padding: 2rem 0;
+
+    .copyright{
+        font-size: 1.2rem;
+        color: $color-grey;
+        padding: 0;
+        margin: 0;
+        padding-top: 2px;
+    }
+
+    &__list{
+        list-style: none;
+    }
+
+    &__item{
+        float: right;
+        font-size: 1.3rem;
+        padding-right: 1.5rem;
+        text-decoration: none;
+
+       
+    }
+
+    &__link{
+        color: $color-grey;
+        font-size: 1.6rem;
+        transition: all .3s;
+
+        &:hover{
+            color: $color-primary;
+        }
+
+    }
+}
+
+

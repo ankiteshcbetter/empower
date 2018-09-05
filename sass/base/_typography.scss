@@ -1,10 +1,76 @@
 body{
-    font-family: "lato", sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     line-height: 1.7;
-    color: $dark-grey;
- 
+    color: $color-dark-grey;
 }
 
 
+.heading-main{
+    color: $color-white;
+    font-size: 6rem;
+    letter-spacing: 2px;
 
+    &--sub{
+        color: $color-primary;
+    }
+
+}
+
+.heading-primary{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    display: block;
+    width: 100%;
+    font-size: 4rem;
+    margin-bottom: 5rem;
+}
+
+.heading-secondary{
+    font-size: 2.4rem;
+    font-weight: 300;
+}
+
+.heading-footer{
+    font-size: 2rem;
+    color: $color-light-grey;
+    margin-bottom: 1.5rem;
+
+    &::after{
+        content: "";
+        display: block;
+        width: 50px;
+        height: 2px;
+        margin-top: .8rem;
+        background-color: #f7f7f7;
+    }
+}
+
+
+.section-our-belief{
+
+    &__text{
+        font-size: 1.6rem;
+
+        &--secondary{
+            display: block;
+        }
+    }
+
+}
+
+.section-testimonials{
+
+    &__text{
+        color: #fff;
+        font-size: 1.6rem;
+        text-align: center;
+        width: 70%;
+        margin: 0 auto;
+        display: block;
+
+        &--secondary{
+            display: block;
+        }
+    }
+}

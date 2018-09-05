@@ -1,0 +1,96 @@
+section {
+  padding: 3.5rem 0;
+}
+
+.section-our-belief {
+  padding-top: 7rem;
+}
+
+.section-causes {
+  padding-bottom: 7rem;
+
+  &__images {
+    width: 100%;
+  }
+}
+
+.section-testimonials {
+  padding: 10rem 0;
+  background-image: linear-gradient(
+      to right,
+      rgba($color-primary, 0.7),
+      rgba($color-primary-dark, 0.9)
+    ),
+    url(../images/testimonial.jpg);
+  height: 30rem;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-gallery {
+  padding-top: 7rem;
+  background-color: $color-light-grey;
+
+  .owl-gallery .owl-nav button.owl-prev {
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    color: #444;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+
+    &:focus{
+        outline: none;
+
+    }
+
+    span {
+      position: absolute;
+      vertical-align: top;
+      font-size: 30px;
+      top: 35%;
+      left: 40%;
+      margin-top: -20px;
+      
+
+      &:focus{
+        outline: none;
+
+    }
+    }
+
+  }
+  .owl-gallery .owl-nav button.owl-next {
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    color: #444;
+    background-color: #fff;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    transform: translateY(-50%);
+
+    &:focus{
+        outline: none;
+
+    }
+
+    span {
+      position: absolute;
+      vertical-align: top;
+      font-size: 30px;
+      top: 35%;
+      left: 40%;
+      margin-top: -20px;
+
+      &:focus{
+          outline: none;
+
+      }
+    }
+}
+}

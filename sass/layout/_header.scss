@@ -1,0 +1,66 @@
+.header{
+position: relative;
+
+
+    .header__image{
+        img{
+            width: 100%;
+
+        }
+        
+        &::after{
+            content: "";
+            display: block;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            top: 0;
+            left: 0;
+            background-color: rgba( #000000, .4);
+            z-index: 1;
+        }
+        
+    }
+
+    .nav-container{
+        width: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        padding-top: 4rem;
+        z-index: 2;
+
+    }
+
+    .navbar-expand-lg .navbar-nav .nav-item{
+        font-size: 1.5rem;
+        padding-right: 4rem;
+        color: $color-white;
+        transition: color .3s;
+
+        &:hover{
+        color: $color-primary;
+            
+        }
+    }
+
+    .navbar-nav .nav-link.active{
+        color: $color-primary;
+    }
+
+    &__text{
+        color: $color-white;
+        font-size: 1.7rem;
+        width: 65%;
+        padding-top: 1rem;
+    }
+
+    &__text-container{
+        position: absolute;
+        top: 33%;
+        left: 8%;
+        z-index: 1;
+    }
+}
+
+

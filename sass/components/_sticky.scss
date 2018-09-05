@@ -1,0 +1,9 @@
+.sticky{
+    display: block;
+    position: fixed !important;
+    top: 0 !important;
+    background-color: $color-dark-grey-2;
+    max-width: 100%;
+    padding: 2rem 6rem;
+    z-index: 99;
+}
